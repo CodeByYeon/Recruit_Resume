@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Recruit_Project
+  devtools:
+    livereload:
+      enabled: true #?? ?? ??
+    restart:
+      enabled: true #???? ???? ?
+  thymeleaf:
+    cache: false #?? ??
+
+  security:
+    user:
+      name: admin
+      password: nimda
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_resume
+    username: root
+    password: 1234
